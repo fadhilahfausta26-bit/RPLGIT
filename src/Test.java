@@ -1,0 +1,6 @@
+/**
+ * Test
+ */
+public @interface Test {
+
+}
