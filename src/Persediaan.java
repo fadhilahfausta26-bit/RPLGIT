@@ -13,4 +13,10 @@ public class Persediaan {
         
         return stok - jumlah;
     }
+
+    // Tambahkan metode main ini
+    public static void main(String[] args) {
+        int sisaStok = kurangiStok(10, 3);
+        System.out.println("Sisa stok setelah pengeluaran: " + sisaStok);
+    }
 }
